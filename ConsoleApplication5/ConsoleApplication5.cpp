@@ -38,6 +38,8 @@ public:
 	}
 
 	void peek() {
-		
+		if (top == NULL) {
+			cout << "List iss empty." << endl;
+		}
 	}
 };
